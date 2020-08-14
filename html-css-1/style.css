@@ -1,7 +1,6 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 .header{
     height: 6vh;
     width: 100vw;
@@ -68,6 +67,7 @@ body{
     justify-content: space-evenly;
     align-content: center;
     padding: 20px;
+    margin: 5;
 }
 
 .orange-box{
