@@ -33,7 +33,7 @@ let me = {
     superPowers: ['Eats Cereal','Plants Trees','Knows his...Ducks!'],
     superPowerXP: function(){ 
         return Math.floor(Math.random() * 100) + 1},
-    profileImage: function(){ return "https://randomuser.me/api/portraits/med/lego/1.jpg"}
+    profileImage: function(){ return `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`}
 }
 
 //////////////////Step 3////////////////////
